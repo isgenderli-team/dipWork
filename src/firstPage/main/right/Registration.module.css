@@ -1,0 +1,52 @@
+.regDiv{
+  width:330px;
+  margin: auto;
+
+}
+.regDiv form{
+  display: flex;
+  flex-direction: column;
+}
+.regDiv form>div div:first-child{
+  text-align: center;
+  margin-bottom: 15px;
+}
+.selCont{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.selCont select{
+  font-size: 15px;
+  padding:5px 3px;
+  width:140px;
+}
+.regDiv form input{
+  width:100%;
+  margin-bottom: 10px;
+  line-height: 20px;
+  padding:5px 10px;
+  border: 1px solid rgb(133, 133, 133);
+  outline:none;
+  font-size: 14px;
+}
+.regDiv form button{
+  font-size: 16px;
+  line-height: 35px;
+  border:1px solid ;
+  background: #1a485f;
+  border:1px solid #e6e2e2e3;
+  border-radius: 3px;
+  color:white;
+}
+.regDiv form>div div:last-child>button{
+  width: 100%;
+  color:white;
+  margin-bottom:5px;
+}
+ .regDiv form>div div:last-child>button:first-child{
+  background: #009688;
+ }
+.regDiv form>div div:last-child>button:last-child{
+  background: #1b6dd1;
+}

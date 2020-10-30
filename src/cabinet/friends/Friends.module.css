@@ -1,0 +1,26 @@
+.friendsListContainer{
+  background: white;
+  width:500px;
+  border:1px solid #e7e8ec;
+  border-radius: 5px;
+}
+.friendsListContainer header {
+  background: #2e55f39e;
+  padding:15px 20px;
+  border-bottom:1px solid #e7e8ec;
+
+}.friendListItem{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.friendsListContainer ul{
+  padding: 10px 15px;
+}
+.fliImgContainer{
+  width: 70px;
+}
+.fliImgContainer img{
+  width:60px;
+  height:60px;
+}

@@ -1,0 +1,21 @@
+.footer{
+  height: 120px;
+}
+.box{
+  width:1200px;
+  margin:auto;
+  display:flex;
+  justify-content: space-between;
+  font-size:13px;
+  padding:20px 0px;
+  border-top: 1px solid #dce1e6;
+}
+
+.box>div>a{
+  margin-right:20px;
+  text-decoration: none;
+  color:#2a5885;
+}
+.box>div>a:hover{
+  text-decoration: underline;
+}

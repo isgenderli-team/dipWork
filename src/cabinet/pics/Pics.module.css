@@ -1,0 +1,29 @@
+.picContainer{
+}
+.containerHeader{
+  height:40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+.containerHeader>span:first-child{
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.containerHeader>span:last-child{
+  color:lightslategray;
+}
+.containerBody{
+  display:flex;
+  flex-wrap: wrap;
+}
+.picBox{
+  width:280px;
+  height: 200px;
+  background: #1a485f;
+  margin: 0px 15px 15px 0px;
+  border-radius: 5px;
+  background: url("https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+}

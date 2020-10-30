@@ -1,0 +1,27 @@
+.menu{
+  width:200px;
+  padding: 10px;
+  margin-left: auto;
+}
+.menu nav{
+  line-height: 30px;
+  margin-bottom: 10px;
+  font-size: 14px;
+
+}
+
+.menu nav a{
+  color:#456e94;
+  padding:2px 10px;
+  display: block;
+}
+.menu nav a span:first-child{
+  margin-right: 5px;
+}
+.menu nav a:hover{
+  text-decoration: none;
+}
+.menu nav ul li:hover, .menu nav a:hover{
+  background:#77a5ce24;
+  cursor:pointer;
+}

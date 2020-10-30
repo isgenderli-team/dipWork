@@ -1,0 +1,53 @@
+.taskContainer{
+  width:800px;
+  height:440px;
+  border:10px solid #d1d4cd;
+  display: flex;
+
+}
+.taskExplain{
+  width:250px;
+  background: #d1d4cd;
+padding: 15px 25px;
+  line-height: 23px;
+}
+.taskArea{
+  width:530px;
+  max-width:530px;
+  max-height:inherit;
+  background: red;
+}
+.taskExplain h4{
+  text-align: center;
+  margin-bottom: 5px;
+}
+.taskExplain ul{
+  list-style-type:circle;
+}
+.taskExplain li{
+  font-size: 14px;
+}
+.btnContainer{
+  background: #d1d4cd;
+  width:800px;
+  text-align: right;
+  padding:0px 5px 10px 0px;
+}
+.btnContainer > button{
+  margin-left: 10px;
+  outline: none;
+  padding:10px 40px;
+  color:white;
+  outline: none;
+  border-radius: 3px;
+  cursor:pointer;
+}
+.btnContainer > button:first-child{
+  background: teal;
+  border:1px solid darkgreen;
+}
+.btnContainer > button:last-child{
+  background: cornflowerblue;
+  border:1px solid #2a5885;
+  margin-right:5px;
+}

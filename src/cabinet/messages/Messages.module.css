@@ -1,0 +1,62 @@
+.messengerContainer{
+  height:500px;
+  max-height:500px;
+  width: 700px;
+  display: flex;
+  border:1px solid #e7e8ec;
+  border-radius:5px;
+}
+.mcLeft{
+  width:200px;
+  height:500px;
+  max-height:500px;
+  border-right:1px solid #e7e8ec;
+}
+.mcRight{
+  width:500px;
+  height:500px;
+  max-height:500px;
+}
+.mcrHeader{
+  height:50px;
+  line-height: 50px;
+  border-bottom: 1px solid #dedddd;
+  font-weight: 700;
+  padding:0px 10px;
+}
+.mcrBody{
+  height: 380px;
+  padding:20px 10px;
+}
+
+.mcrFooter{
+  background: #efefef;
+  min-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.mcrTextarea{
+  background: white;
+  width:380px;
+  min-height: 40px;
+  max-height: 140px;
+  outline: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  overflow: auto;
+  border: 1px solid #dedddd;
+  font-size: 13px;
+}
+.mclHeader{
+  height:50px;
+  line-height: 50px;
+  border-bottom: 1px solid #dedddd;
+  font-weight: 700;
+  padding:0px 10px;
+}
+.mcLeft>ul{
+  font-size: 13px;
+  padding:20px;
+}

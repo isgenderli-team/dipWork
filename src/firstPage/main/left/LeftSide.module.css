@@ -1,0 +1,18 @@
+.aside {
+  line-height: 26px;
+  background: white;
+  width: 750px;
+  margin: 0;
+  padding: 20px 30px;
+  border:1px solid #e6e2e2e3;
+  box-shadow: 0px 8px 3px -9px rgba(0,0,0,0.75);
+  border-radius:4px;
+
+}
+.aside>div:first-child{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.aside>div:last-child ul{
+  list-style: none;
+}

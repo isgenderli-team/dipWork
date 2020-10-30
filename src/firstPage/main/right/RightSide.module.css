@@ -1,0 +1,11 @@
+.aside{
+  width:400px;
+}
+.aside>section{
+  width:inherit;
+  background: white;
+  border:1px solid #e6e2e2e3;
+  border-radius:4px;
+  margin-bottom:25px;
+  padding:15px 10px;
+}

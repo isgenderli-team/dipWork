@@ -1,0 +1,33 @@
+.header{
+  grid-area:header;
+  height:60px;
+  width:100%;
+  background-color:#1a485f;
+}
+
+.header > div{
+  width:1100px;
+  margin: auto;
+  height:inherit;
+  display: flex;
+  justify-content: space-between;;
+  align-items: center;;
+}
+.websiteName{
+  font-weight: 700;
+  font-family: "Cambria Math";
+  font-size: 20px;
+  color: white;
+}
+.langChanger{
+  color:white;
+  font-size: 14px;
+  font-weight: 600;
+}
+.langChanger>a{
+  color:white;
+}
+.langChanger>a:hover{
+  text-decoration: none;
+  color:white;
+}

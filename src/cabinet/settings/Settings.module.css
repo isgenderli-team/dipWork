@@ -1,0 +1,57 @@
+.settingContainer{
+  background: white;
+  border:1px solid #e7e8ec;
+  width: 500px;
+  padding:10px;
+  border-radius: 5px;
+}
+.settingContainer > h1{
+ text-align: center;
+border-bottom:1px solid #e7e8ec;
+}
+.settingContainer ul li{
+  padding:10px 5px;
+  line-height: 27px;
+}
+.settingContainer ul li span{
+  font-size:13px;
+  color:lightslategrey;
+}
+.settingContainer ul li input{
+  padding:10px;
+  border:1px solid #e7e8ec;
+  border-radius: 5px;
+  outline:none;
+  font-size: 16px;
+}
+.flexInputCont{
+  display: flex;
+  justify-content: space-between;
+}
+.settingContainer ul li input[name="email"]{
+  width:100%;
+}
+.settingContainer ul li textarea[name="about"]{
+  width:100%;
+  height:100px;
+ resize:none;
+  padding:10px;
+  border:1px solid #e7e8ec;
+  border-radius: 5px;
+  outline:none;
+  font-size: 16px;
+}
+.btnCont{
+  display: flex;
+  padding-right: 5px;
+}
+.btnCont button{
+  padding: 10px 30px;
+  outline: none;
+  background: green;
+  border: 1px solid darkslategrey;
+  color:white;
+  border-radius: 5px;
+  margin-left: auto;
+  cursor: pointer;
+}
